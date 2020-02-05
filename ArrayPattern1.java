@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class ArrayPattern
+class ArrayPattern1
 {
  public static void main(String args[])
  {
@@ -22,10 +22,10 @@ class ArrayPattern
   {
    for(int j=0;j<n;j++)
    {
-    if(i<=a[j])
-     System.out.print("*");
-    else
+    if(i<=max-a[j])
      System.out.print(" ");
+    else
+     System.out.print("*");
    }
   System.out.println();
   }
